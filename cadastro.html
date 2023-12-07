@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="static/Imagens/logo.png">
+    <link rel="icon" href="Imagens/logo.png">
     <link rel="stylesheet" href="style.css">
     <title>Cadastro livro teca</title>
 </head>
-<body>
+<body class="fundo_janelas">
     <main id="cadastro">
         <div>
-            <form  class="estilo_form" action="/confirmar_cadastro" method="post">
+            <form id="cad" class="estilo_form" action="127.0.0.1:5500/enviar_cad" method="post">
                 <label for="email">Email</label>
                 <input type="email" name="email" id="" placeholder="nome@exemplo">
                 
@@ -21,7 +21,7 @@
                 <input type="password" name="senha" id="" placeholder="Digite a senha">
                 <button type="submit" style="margin-top: 10px;">Confirmar</button>
             </form>
-            
+            <script src="cadastro.js"></script>
         </div> 
     </main>
 </body>
