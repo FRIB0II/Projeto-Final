@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    background-color: orange;
+    border: 2px solid black;
+}
+
+.rodape {
+    color: #000;
+    background-color: orange;
+    border: 2px solid black;
+
+}
+
+.lista_cabecalho {
+    display: flex;
+    flex-direction: row;
+    list-style: none;    
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+main {
+    background-color: royalblue;
+    color: white;
+    margin: 12px;
+    padding: 12px;
+    background-color: mauve;
+}
+
+li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+a {
+    padding: 6px;
+}
+
+ul li :link{
+    color: black;
+}
+
+ul li :visited{
+    color: white;
+}
+
+ul li :hover{
+    background-color: royalblue;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+    padding: 10px;
+}
+
+.legenda {
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#login {
+    background-color: orange;
+    color: black;
+    margin: 0;
+}
+
+#cadastro {
+    background-color: orange;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    padding-left: 1%;
+    border-radius: 12px;
+}
+
+#emprestimo {
+    background-color: orange;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    padding-left: 1%;
+    border-radius: 12px;
+}
+
+.estilo_form {
+    background-color: orange;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    padding-left: 1%;
+    border-radius: 12px;
+}
