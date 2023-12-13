@@ -6,13 +6,16 @@ body{
 .cabecalho {
     background-color: orange;
     border: 2px solid black;
+    border-right: none;
+    border-left: none;
 }
 
 .rodape {
     color: #000;
     background-color: orange;
     border: 2px solid black;
-
+    border-right: none;
+    border-left: none;
 }
 
 .lista_cabecalho {
@@ -111,4 +114,36 @@ ul li :hover{
 
 .fundo_janelas {
     background-color: wheat;
+}
+
+.imagem_livro {
+    height: 200x;
+    width: 200px;
+    margin: 12px;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+.livros {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_livros {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.self_livro {
+    display: flex; 
+    flex-direction: row;
+}
+
+.primeiro_info_livro {
+    margin: 0px; 
+    padding-top: 24px;
+}
+
+.segunda_info_livro {
+    margin: 0px;
 }
