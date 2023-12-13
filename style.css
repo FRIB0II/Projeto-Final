@@ -110,6 +110,7 @@ ul li :hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 12px;
 }
 
 .fundo_janelas {
@@ -146,4 +147,10 @@ ul li :hover{
 
 .segunda_info_livro {
     margin: 0px;
+}
+
+#organizarLC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
