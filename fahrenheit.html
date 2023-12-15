@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Imagens/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Livro teca</title>
+</head>
+
+<body>
+    <header>
+        <nav class="cabecalho">
+            <ul class="lista_cabecalho">
+                <img class="logo" style="padding-right: 24px;" src="Imagens/logo.png" alt="Logo do site">
+                <li><a href="inicio.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="livro_emprestimo">
+            <div class="self_livro">
+                <img class="imagem_livro_emprestimo" src="Imagens/Fahrenheit451.webp" alt="Fahrenheit 451">
+            </div>
+            <div>
+                <h2 style="margin-top: 64px;">Fahrenheit 451</h2>
+                <h4>Digite seu email e senha para no campo abaixo para emprestar o livro</h4>
+                <form id="emprestimo" class="estilo_form" action="emprestar_livro" method="post">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="nome@exemplo">
+
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite a senha">
+                    <button type="submit" style="margin-top: 10px;">Confirmar</button>
+                </form>
+            </div>
+        </section>
+
+        <hr style="margin: 12px;">
+
+        <section class="secao_livro_emprestimo">
+            <h3>Sinopse</h2>
+                <p>O livro descreve um governo totalitário, num futuro incerto, mas próximo, que proíbe qualquer livro
+                    ou tipo de leitura, prevendo que o povo possa ficar instruído e se rebelar contra o status quo.
+
+                    Tudo é controlado e as pessoas só têm conhecimento dos fatos por aparelhos de TVs instalados em suas
+                    casas ou em praças ao ar livre.
+
+                    A leitura deixou de ser meio para aquisição de conhecimento crítico e tornou-se tão instrumental
+                    quanto a vida dos cidadãos, suficiente apenas para que saibam ler manuais e operar aparelhos.
+
+                    Fahrenheit 451 tornou-se um clássico não só na literatura, mas também no cinema. Em 1966, o diretor
+                    François Truffaut adaptou o livro e lançou o filme de mesmo nome estrelado por Oskar Werner e Julie
+                    Christie.
+                </p>
+
+            <hr>
+
+            <h3>Informações do livro</h3>
+
+                <div class="info_livros_emprestimo">
+                    <div>
+                        <ul class="lista_info_livro">
+                            <li>Formato</li>
+                            <li>Número de Páginas</li>
+                            <li>Subtítulo</li>
+                            <li>Editora</li>
+                            <li>Autor</li>
+                            <li>Ano da Edição</li>
+                            <li>EAN13</li>
+                            <li>Edição</li>
+                            <li>Idioma</li>
+                            <li>Fabricante</li>
+                            <li>ISBN</li>
+                            <li>Páginas</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="lista_info_livro">
+                            <li>Brochura</li>
+                            <li>215</li>
+                            <li>Fahrenheit 451</li>
+                            <li>Biblioteca Azul</li>
+                            <li>Ray Bradbury</li>
+                            <li>2012</li>
+                            <li>9788525052247</li>
+                            <li>1</li>
+                            <li>Português</li>
+                            <li>Biblioteca Azul</li>
+                            <li>8525052248</li>
+                            <li>215</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <ul class="lista_rodape">
+            <li>Email de contato: livroteca@gmail.com</li>
+            <li>Número para contato: (41) 99461-8345</li>
+            <li>Localização: São Paulo Brasil Rua das Flores, nº 123, no
+                bairro da Vila Mariana
+            </li>
+            <li>Livro teca, compartilhando sonhos.</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

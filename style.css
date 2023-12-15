@@ -26,6 +26,24 @@ body{
     align-items: flex-end;
 }
 
+.lista_rodape {
+    list-style: none;
+}
+
+.lista_info_livro {
+    list-style: none;
+    margin: 0px;
+}
+
+h3 {
+    margin-left: 12px; 
+    color: #258d19;
+}
+
+p {
+    margin-left: 24px;
+}
+
 .Textos {
     background-color: royalblue;
     color: white;
@@ -36,7 +54,7 @@ body{
 
 li {
     margin-right: 10px;
-    padding: 10px;
+    padding: 0px;
 }
 
 a {
@@ -97,10 +115,11 @@ ul li :hover{
 #emprestimo {
     background-color: orange;
     color: black;
-    margin-top: 15%;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding-right: 12px;
     border: 2px solid black;
+
 }
 
 .estilo_form {
@@ -125,9 +144,38 @@ ul li :hover{
     border: 1px solid black;
 }
 
+.imagem_livro_emprestimo {
+    height: 400px;
+    width: 300px;
+    margin-top: 64px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 64px;
+}
+
+.secao_livro_emprestimo {
+    margin: 24px;
+}
+
+.info_livros {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info_livros_emprestimo {
+    display: flex;
+    flex-direction: row;
+}
+
 .livros {
     display: flex;
     flex-direction: column;
+}
+
+.livro_emprestimo {
+    display: flex;
+    flex-direction: row;
 }
 
 .info_livros {
