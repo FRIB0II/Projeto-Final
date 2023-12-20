@@ -1,4 +1,8 @@
+import { cadastroEmailGlobal, cadastroSenhaGlobal } from "./cadastro.js";
+
 const fomrEmprestimo = document.querySelector('#emprestimo');
+
+let emprestimoRealizado = false;
 
 fomrEmprestimo.addEventListener('submit', event => {
 
@@ -11,7 +15,10 @@ fomrEmprestimo.addEventListener('submit', event => {
     if (emailEmpr.value == "" || senhaEmpr.value == "") {
         alert("É preciso preencher todos os campos abaixo para realizar o login.");
     }
-    else {
+    else if(emprestimoRealizado == true){
+        alert("Você já fez o empréstimo deste produto.")
+    }
+    else if(emailEmpr == cadastroEmailGlobal && senhaEmpr == cadastroSenhaGlobal){
         // Cria um novo objeto Date com a data e hora atuais
         var data = new Date();
 
@@ -25,5 +32,6 @@ fomrEmprestimo.addEventListener('submit', event => {
         var dataFutura = dia + '/' + mes + '/' + ano;
 
         alert(`Empréstimo realizado com sucesso. A data de devolução será: ${dataFutura}`);
+        emprestimoRealizado = true;
     }
 })

@@ -29,12 +29,13 @@
             <div>
                 <h2 style="margin-top: 64px;">Admirável mundo novo</h2>
                 <h4>Digite seu email e senha para no campo abaixo para emprestar o livro</h4>
-                <form id="emprestimo" class="estilo_form" action="emprestar_livro" method="post">
+                <form id="emprestimo" class="estilo_form" action="">
                     <label for="email_emprestimo">Email</label>
                     <input type="email" name="email_emprestimo" id="email_emprestimo" placeholder="nome@exemplo">
 
                     <label for="senha_emprestimo">Senha</label>
-                    <input maxlength="8" minlength="8" type="password" name="senha_emprestimo" id="senha_emprestimo" placeholder="Digite a senha">
+                    <input maxlength="8" minlength="8" type="password" name="senha_emprestimo" id="senha_emprestimo"
+                        placeholder="Digite a senha">
                     <button type="submit" style="margin-top: 10px;">Confirmar</button>
                 </form>
             </div>
@@ -118,8 +119,7 @@
             <li>Livro teca, compartilhando sonhos.</li>
         </ul>
     </footer>
-
-    <script src="/scripts/emprestimo.js"></script>
+    <script type="module" src="/scripts/emprestimo.js"></script>
 </body>
 
 </html>
