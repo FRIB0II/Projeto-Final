@@ -35,6 +35,14 @@ body{
     margin: 0px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    margin: 12px;
+}
+
 h3 {
     margin-left: 12px; 
     color: #258d19;
@@ -95,8 +103,6 @@ ul li :hover{
 }
 
 #login {
-    background-color: orange;
-    color: black;
     margin-top: 15%;
     margin-left: 35%;
     margin-right: 35%;
@@ -104,8 +110,6 @@ ul li :hover{
 }
 
 #cadastro {
-    background-color: orange;
-    color: black;
     margin-top: 15%;
     margin-left: 35%;
     margin-right: 35%;
@@ -113,8 +117,6 @@ ul li :hover{
 }
 
 #emprestimo {
-    background-color: orange;
-    color: black;
     margin-top: 64px;
     margin-bottom: 64px;
     padding-right: 12px;
