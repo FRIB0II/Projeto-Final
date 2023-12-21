@@ -4,7 +4,6 @@ let cadastroSenhaGlobal;
 
 const formCadastro = document.querySelector('#cad');
 
-
 formCadastro.addEventListener('submit', event => {
 
     event.preventDefault();
@@ -33,4 +32,4 @@ formCadastro.addEventListener('submit', event => {
     }
 })
 
-export { cadastroEmailGlobal, cadastroUsuarioGlobal, cadastroSenhaGlobal };
+//export { cadastroEmailGlobal, cadastroUsuarioGlobal, cadastroSenhaGlobal };
